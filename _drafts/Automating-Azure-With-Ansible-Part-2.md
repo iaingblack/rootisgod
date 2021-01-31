@@ -8,7 +8,6 @@ categories: azure devops ansible automation windows vscode winrm
 {% include all-header-includes.html %}
 {% include all-footer-includes.html %}
 
-
 # The Plan
 
 Now that we have a basic process and can deploy an Azure Resource Group with Ansible, we can look to improve the playbook to create a whole VM. There are a number of parts to create to get a VM so it's not quite as simple as just 'Make VM', we need other resources like a Public IP address, an NSG to protect access etc etc... We will then use Ansible to configure the OS once deployed. Once you have the basics of this in place the sky is the limit really. So, i'll build it in stages and once complete you will have a decent base to use and hopefully learn enough to improve this for your own needs.
